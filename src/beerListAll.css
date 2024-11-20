@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+    .beerAll {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+    }
+    .beerAll.blurred {
+        filter: blur(15px);
+        pointer-events: none;
+        transition: filter 0.3s ease-in-out;
+    }
+    .beerContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        transition: transform 0.3s ease-in-out;
+        height: 100%;
+    }
+
+    .beerList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: white;
+        position: relative;
+        top: -69px;
+        left: 0;
+        gap: 2px;
+        height: 100%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .beerItem {
+        width: calc(40% - 50px);
+        height: 200px;
+        box-sizing: border-box;
+        margin: 5px 5px 15px 5px;
+    }
+
+    .imgBeerAll {
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .nameBeerh3 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: -5px
+    }
+
+    .priceBeerP {
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: -18px;
+    }
+
+    #pLoading {
+        position: relative;
+        left: 45%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+@media (min-width: 1024px) {
+    .beerAll {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .beerContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+    .beerList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        position: relative;
+        left: 0;
+        top: 20px;
+        gap: 10px;
+        height: 100%;
+    }
+    .beerItem {
+        width: calc(33.33% - 20px);
+        height: 250px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgBeerAll {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 120px;
+        height: 130px;
+        margin-bottom: 15px;
+    }
+
+    .nameBeerh3 {
+        margin-top: -5px;
+    }
+
+    .priceBeerP {
+        margin-top: -18px;
+    }
+}
