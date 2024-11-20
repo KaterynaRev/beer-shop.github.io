@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/beer-shop/static/css/main.dff031d9.css",
-    "main.js": "/beer-shop/static/js/main.bb20f63a.js",
-    "static/js/453.29314506.chunk.js": "/beer-shop/static/js/453.29314506.chunk.js",
-    "index.html": "/beer-shop/index.html",
-    "main.dff031d9.css.map": "/beer-shop/static/css/main.dff031d9.css.map",
-    "main.bb20f63a.js.map": "/beer-shop/static/js/main.bb20f63a.js.map",
-    "453.29314506.chunk.js.map": "/beer-shop/static/js/453.29314506.chunk.js.map"
+    "main.css": "/beer-shop.github.io/static/css/main.dff031d9.css",
+    "main.js": "/beer-shop.github.io/static/js/main.4e9d58bd.js",
+    "static/js/453.29314506.chunk.js": "/beer-shop.github.io/static/js/453.29314506.chunk.js",
+    "index.html": "/beer-shop.github.io/index.html",
+    "main.dff031d9.css.map": "/beer-shop.github.io/static/css/main.dff031d9.css.map",
+    "main.4e9d58bd.js.map": "/beer-shop.github.io/static/js/main.4e9d58bd.js.map",
+    "453.29314506.chunk.js.map": "/beer-shop.github.io/static/js/453.29314506.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dff031d9.css",
-    "static/js/main.bb20f63a.js"
+    "static/js/main.4e9d58bd.js"
   ]
 }
