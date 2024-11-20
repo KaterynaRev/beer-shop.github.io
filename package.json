@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://katerynarev.github.io/beer-shop.github.io/",
+  "homepage": "https://github.com/KaterynaRev/beer-shop.github.io.git",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
