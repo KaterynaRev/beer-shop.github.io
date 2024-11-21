@@ -1,48 +1,48 @@
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .divPaymentBusket {
         padding-top: 0;
         margin-top: 0;
         position: relative;
+        top: -5px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
         width: 100%;
-        height: 300px;
+        height: 210px;
         box-sizing: border-box;
-        left: -15px;
     }
 
     .divTips {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #pTips {
         color: white;
-        font-size: 18px;
+        font-size: 11px;
         position: relative;
-        left: -74px;
+        left: -88px;
     }
 
     .divBtnTips {
         display: flex;
         position: relative;
         top: -8px;
-        left: 68px;
-        width: 310px;
+        left: 35px;
+        width: 80vw;
         gap: 1px;
-        height: 45px;
+        height: 25px;
     }
 
     #btnZero, #btnRound, #btnPercent, #btnCustom {
         background-color: orange;
         padding: 3px;
-        font-size: 16px;
+        font-size: 11px;
         font-weight: bold;
     }
 
     #btnZero {
-        border-radius: 13px 0 0 13px;
+        border-radius: 8px 0 0 8px;
         width: 60px;
     }
 
@@ -55,7 +55,7 @@
     }
 
     #btnCustom {
-        border-radius: 0 13px 13px 0;
+        border-radius: 0 8px 8px 0;
         width: 95px;
     }
 
@@ -63,23 +63,23 @@
         display: flex;
         flex-direction: row;
         color: white;
-        width: 310px;
+        width: 80vw;
         position: relative;
-        left: 74px;
+        left: 35px;
         top: -10px;
     }
 
     #pSubtotal, #pTipsPP {
         position: relative;
-        font-size: 18px;
-        letter-spacing: 2px;
+        font-size: 11px;
+        letter-spacing: 1px;
     }
 
     #pPriceSub {
         position: relative;
-        font-size: 18px;
+        font-size: 11px;
         letter-spacing: 2px;
-        left: 160px;
+        left: 176px;
     }
 
     .divTipsPP {
@@ -87,52 +87,51 @@
         flex-direction: row;
         color: white;
         position: relative;
-        top: -49px;
-        width: 310px;
-        left: 74px;
+        top: -30px;
+        width: 80vw;
+        left: 35px;
     }
 
     #pTipsPPP {
         position: relative;
-        font-size: 18px;
-        letter-spacing: 2px;
-        left: 203px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        left: 200px;
     }
 
     .divTotal {
         display: flex;
         flex-direction: row;
         color: white;
-        width: 310px;
+        width: 80vw;
         position: relative;
-        top: -50px;
-        left: 74px;
+        top: -40px;
+        left: 35px;
     }
 
     #pTotal {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #pTotalPrice {
         position: relative;
-        font-size: 18px;
+        font-size: 15px;
         letter-spacing: 2px;
         left: 190px;
-        top: 8px;
     }
 
     .divBtnConfirm {
-        width: 310px;
+        width: 80vw;
     }
     #btnConfirm{
-        width: 310px;
+        width: 80vw;
         background-color: orange;
         border-radius: 13px;
-        height: 45px;
+        height: 35px;
         position: relative;
-        left: 68px;
+        left: 35px;
         top: -50px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         letter-spacing: 2px;
     }

@@ -1,7 +1,7 @@
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .classIkonsMenu {
         position: absolute;
-        top: 54px;
+        top: 24px;
         display: flex;
         flex-direction: row;
         z-index: 3;
@@ -12,7 +12,7 @@
     .btnIkonsMenu {
         border: none;
         width: calc(90% / 4 - 10px);
-        height: 52px;
+        height: 33px;
         display: flex;
         justify-content: center;
         border-radius: 20px 20px 0 0;
@@ -22,21 +22,21 @@
 
     .imgikons {
         flex-grow: 1;
-        max-width: 30px;
-        height: 35px;
+        max-width: 16px;
+        height: 20px;
         padding-top: 5px;
     }
 
     .content {
         position: relative;
-        top: -236px;
+        top: -188px;
     }
 
     .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
         position: absolute;
         background-color: #282c34;
         top: 109px;
-        height: 40px;
+        height: 20px;
         display: flex;
         flex-direction: row;
         z-index: 3;
@@ -48,7 +48,7 @@
         background-color: #282c34;
         color: white;
         border: none;
-        font-size: 20px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
     }
@@ -57,7 +57,7 @@
         background-color: #282c34;
         color: gray;
         border: none;
-        font-size: 20px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
     }
@@ -71,7 +71,7 @@
     }
 
     .classIkonsMenu.blurred {
-        filter: blur(15px);
+        filter: blur(10px);
         pointer-events: none;
         transition: filter 0.3s ease-in-out;
     }
@@ -80,40 +80,39 @@
         position: relative;
         align-content: center;
         justify-content: center;
-        left: -12px;
         z-index: 3;
         border: none;
-        width: 50px;
-
+        width: 45px;
+        top: -4px;
     }
 
     .sortButton {
         border: none;
-        height: 38px;
-        width: 90px;
+        height: 18px;
+        width: 45px;
     }
 
     #ulIdDrop {
         position: absolute;
+        left: -185px;
         z-index: 4;
-        width: 80vw;
-        left: -286px;
-        top: calc(100vh / 2 - 210px);
-        height: 220px;
+        width: 60vw;
+        top: calc(100vh / 2 - 28vh);
+        height: 30vh;
         background-color: #282c34;
         border-radius: 20px;
         list-style: none;
         display: flex;
         flex-direction: column;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         gap: 5px;
     }
 
 
     #liSorting {
         position: relative;
-        left: -14px;
+        left: -18px;
     }
 
     .liOneDrop {
@@ -122,22 +121,26 @@
         justify-content: left;
         position: relative;
         left: -20px;
-
+        top: 8px;
     }
+
     .liOneDrop button {
         color: white;
-        font-size: 21px;
+        font-size: 13px;
         letter-spacing: 1px;
-        height: 40px;
+        height: 30px;
         padding: 0 0 3px 0;
     }
-#ulIdDrop{
-    display: none;
-}
+
+    #ulIdDrop {
+        display: none;
+    }
+
     #dropDownBtn:hover ul {
         display: block;
     }
-    .btnLiDrop.active #ulIdDrop{
+
+    .btnLiDrop.active #ulIdDrop {
         display: none;
     }
 
