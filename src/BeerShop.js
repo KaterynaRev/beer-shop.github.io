@@ -45,7 +45,7 @@ export default function BeerShop() {
     };
     const fetchBeers = (foodType = "") => {
         setLoading(true);
-        fetch(`/mockBrewdog.json`)
+        fetch(`${process.env.PUBLIC_URL}/mockBrewdog.json`)
             .then(response => response.json())
             .then(data => {
                 if (foodType) {

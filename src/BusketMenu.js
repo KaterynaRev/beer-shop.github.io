@@ -31,7 +31,7 @@ export default function BusketMenu({
                  style={{height: containerHeight , transition: "height 0.3s ease"}}>
                 <div id="lineDiv"></div>
                 <div className="divImgBusket">
-                    <img id="imgBusket" src="/basket_icon-icons.com_66289.svg" alt="busket"/>
+                    <img id="imgBusket" src={`${process.env.PUBLIC_URL}/basket_icon-icons.com_66289.svg`} alt="busket"/>
                     <p>Shopping Cart</p>
                 </div>
                 <div className="cartInfoInBusket">
@@ -46,16 +46,16 @@ export default function BusketMenu({
                                 <div className="containerBtnAddSub">
                                     <button className="btnImgSubCount" onClick={(e) => handleCountChange(cartS.id, 'subtract', e)}>
                                         <img id="imgSubBeer"
-                                             src="/minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.svg"
+                                             src={`${process.env.PUBLIC_URL}/minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.svg`}
                                              alt="substrucktCount"/>
                                     </button>
                                     <p id="pCountBeer">{countBeer[cartS.id] || 0}</p>
                                     <button className="btnImgAddCount" onClick={(e) => handleCountChange(cartS.id, 'add', e)}>
-                                        <img className="imgAddBeerInBusket" src="/Plus_icon-icons.com_71848.svg"
+                                        <img className="imgAddBeerInBusket" src={`${process.env.PUBLIC_URL}/Plus_icon-icons.com_71848.svg`}
                                              alt="addProduct"/>
                                     </button>
                                     <button className="btnDeleteProduct">
-                                        <img onClick={(e) => handleCountChange(cartS.id, 'delete', e)} id="imgDeleteProduct" src="/trash_bin_icon-icons.com_67981.svg"
+                                        <img onClick={(e) => handleCountChange(cartS.id, 'delete', e)} id="imgDeleteProduct" src={`${process.env.PUBLIC_URL}/trash_bin_icon-icons.com_67981.svg`}
                                              alt="delete"/>
                                     </button>
                                 </div>
