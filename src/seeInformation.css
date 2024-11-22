@@ -387,7 +387,7 @@
     }
 
 }
-@media (min-width: 767px) and (max-width: 1440px){
+@media (min-width: 1440px) {
     #btnClose {
         background-color: red;
         border-radius: 14px;

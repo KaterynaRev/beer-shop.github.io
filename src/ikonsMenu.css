@@ -442,7 +442,7 @@
 
 
 
-@media screen and (min-width: 767px) and (max-width: 1440px) {
+@media (min-width: 1440px) {
     .classIkonsMenu {
         position: absolute;
         top: 78px;
