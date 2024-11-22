@@ -204,7 +204,7 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 1440px) {
+@media screen and (min-width: 767px) and (max-width: 1440px) {
     .beerAll {
         position: relative;
         display: flex;
