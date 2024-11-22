@@ -76,8 +76,8 @@ export default function BeerShop() {
     };
 
     const containerHeight = cart.length === 0
-        ? (isOpenBusket ? '79vh' : '60px') : (isOpenBusket ? '79vh' : '100px')
-            ? (isOpenBusket ? '79vh' : '100px') : (isOpenBusket ? '79vh' : '400px') ;
+        ? (isOpenBusket ? '79vh' : '10%') : (isOpenBusket ? '79vh' : '17%')
+            ? (isOpenBusket ? '79vh' : '17%') : (isOpenBusket ? '79vh' : '40%') ;
 
     const handleOpenBusket = () => {
         setIsOpenBusket(prevBus => !prevBus);

@@ -1,108 +1,104 @@
 .App {
-  text-align: center;
-}
-@media (max-width: 320px) {
-  .App-header {
-    min-height: 25vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-
-  #h1Demo {
-    height: 12vh;
-    width: 100vw;
-    background-color: crimson;
-    position: relative;
-    top: -43px;
-  }
-
-  #h1Demo h1 {
-    position: relative;
-    font-size: 13px;
-  }
+    text-align: center;
 }
 
-@media (min-width: 320px ) and (max-width: 425px){
-  .App-header {
-    min-height: 29vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
+@media (max-width: 480px) {
+    .App-header {
+        min-height: 13vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
 
-  #h1Demo {
-    height: 14vh;
-    width: 100vw;
-    background-color: crimson;
-    position: relative;
-    top: -42px;
-  }
+    #h1Demo {
+        height: 13vh;
+        width: 100vw;
+        background-color: crimson;
+        position: relative;
+    }
 
-  #h1Demo h1 {
-    position: relative;
-    font-size: 16px;
-    top: -6px;
-  }
-
+    #h1Demo h1 {
+        position: relative;
+        font-size: 1.3rem;
+        line-height: 0.6em;
+    }
 }
 
-@media (min-width: 480px) and (max-width: 767px){
-  .App-header {
-    min-height: 33vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
+/*@media (min-width: 320px ) and (max-width: 425px){*/
+/*  .App-header {*/
+/*    min-height: 29vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    color: white;*/
+/*  }*/
 
-  #h1Demo {
-    height: 15vh;
-    width: 100vw;
-    background-color: crimson;
-    position: relative;
-    top: -71px;
-  }
+/*  #h1Demo {*/
+/*    height: 14vh;*/
+/*    width: 100vw;*/
+/*    background-color: crimson;*/
+/*    position: relative;*/
+/*    top: -42px;*/
+/*  }*/
 
-  #h1Demo h1 {
-    position: relative;
-    font-size: 22px;
-    top: -6px;
-  }
+/*  #h1Demo h1 {*/
+/*    position: relative;*/
+/*    font-size: 16px;*/
+/*    top: -6px;*/
+/*  }*/
 
-}
+/*}*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/*@media (min-width: 480px) and (max-width: 767px){*/
+/*  .App-header {*/
+/*    min-height: 33vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    color: white;*/
+/*  }*/
 
+/*  #h1Demo {*/
+/*    height: 15vh;*/
+/*    width: 100vw;*/
+/*    background-color: crimson;*/
+/*    position: relative;*/
+/*    top: -71px;*/
+/*  }*/
 
-}
+/*  #h1Demo h1 {*/
+/*    position: relative;*/
+/*    font-size: 22px;*/
+/*    top: -6px;*/
+/*  }*/
+
+/*}*/
 
 
 @media (min-width: 1440px) {
-  .App-header {
-    min-height: 25vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
+    .App-header {
+        min-height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
 
-  #h1Demo {
-    height: 25vh;
-    width: 100%;
-    background-color: crimson;
-    position: relative;
-  }
+    #h1Demo {
+        height: 25vh;
+        width: 100%;
+        background-color: crimson;
+        position: relative;
+    }
 
-  #h1Demo h1 {
-    position: relative;
-    top: -20px;
-    font-size: 30px;
-  }
+    #h1Demo h1 {
+        position: relative;
+        top: -20px;
+        font-size: 30px;
+    }
 }
