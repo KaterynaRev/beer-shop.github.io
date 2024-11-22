@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .busketContainer {
         position: fixed;
         width: 100%;
@@ -54,14 +54,14 @@
         position: relative;
         top: -10px;
         max-height: 39vh;
-        gap: 5px;
+        gap: 3px;
     }
 
     .divInfoC {
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 9vh;
+        height: 8vh;
         padding: 3px 3px 5px 3px;
     }
 
@@ -78,10 +78,10 @@
 
     .nameBeerh3Cart {
         padding: 3px;
-        width: 8rem;
+        width: 40%;
         position: relative;
-        left: 4px;
-        top: -5px;
+        left: 6px;
+        top: -2px;
         color: white;
         letter-spacing: 1px;
         font-size: 0.7rem;
@@ -106,7 +106,7 @@
         padding: 2px;
         margin: 2px;
         align-items: center;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .containerBtnAddSub {
@@ -114,7 +114,7 @@
         flex-direction: row;
         gap: 5px;
         position: relative;
-        left: -30px;
+        left: -20px;
         top: 10px;
     }
 
@@ -169,6 +169,361 @@
         top: -3px;
     }
 
+}
+
+@media (min-width: 320px ) and (max-width: 425px) {
+    .busketContainer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        min-height: 80px;
+        height: auto;
+        border-radius: 35px 35px 0 0;
+        background-color: #282c34;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #lineDiv {
+        width: 20px;
+        height: 4px;
+        background-color: white;
+        position: relative;
+        left: calc(100vw / 2 - 10px);
+        top: 10px;
+        cursor: pointer;
+        padding: 1px;
+        border-radius: 20px;
+    }
+
+    .divImgBusket {
+        position: relative;
+        top: -5px;
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        color: white;
+        left: calc(100vw / 2 - 70px);
+        letter-spacing: 2px;
+    }
+
+    #imgBusket {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 14px;
+    }
+    .divImgBusket p{
+        font-size: 0.9rem ;
+    }
+    .cartInfoInBusket {
+        background-color: #282c34;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -11px;
+        max-height: 43vh;
+        gap: 8px;
+        width: 100%;
+        padding: 2px 0;
+    }
+
+    .divInfoC {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 8vh;
+        padding: 6px 0 3px 0;
+        position: relative;
+        top: -3px;
+    }
+
+    .imgBeerCart {
+        width: 33px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 2px;
+        padding-top: 2px;
+        position: relative;
+        left: 12px;
+        top: -3px;
+    }
+
+    .nameBeerh3Cart {
+        padding: 3px;
+        position: relative;
+        width: 38%;
+        left: 20px;
+        top: -5px;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerDivCart {
+        width: 30px;
+        height: 13px;
+        color: black;
+        background-color: orange;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        left: -120px;
+        top: -4px;
+    }
+
+    .priceBeerPCart {
+        position: relative;
+        top: -5px;
+        padding: 2px;
+        margin: 2px;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .containerBtnAddSub {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        position: relative;
+        left: 10%;
+        top: 10px;
+        width: 60%;
+    }
+
+    .btnImgSubCount {
+        width: 30px;
+        height: 20px;
+        background-color: #282c34;
+        border-radius: 6px 0 0 6px;
+    }
+
+    #imgSubBeer {
+        width: 15px;
+        height: 10px;
+        position: relative;
+        left: -1px;
+        top: 0;
+    }
+    #pCountBeer {
+        color: white;
+        width: 20px;
+        position: relative;
+        top: -18px;
+    }
+    .btnImgAddCount {
+        width: 30px;
+        height: 20px;
+        background-color: orange;
+        border-radius: 0 6px 6px 0;
+    }
+
+    .imgAddBeerInBusket {
+        width: 23px;
+        height: 18px;
+        position: relative;
+        left: -4px;
+        top: -2px;
+    }
+    .btnDeleteProduct {
+        width: 30px;
+        height: 30px;
+        background-color: #282c34;
+        border: none;
+        position: relative;
+        left: 20px;
+        top: -2px;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgDeleteProduct {
+        width: 23px;
+        height: 18px;
+        position: relative;
+        top: -3px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+    .busketContainer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        min-height: 80px;
+        height: auto;
+        border-radius: 40px 40px 0 0;
+        background-color: #282c34;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #lineDiv {
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        position: relative;
+        left: calc(100vw / 2 - 15px);
+        top: 10px;
+        cursor: pointer;
+        padding: 1px;
+        border-radius: 20px;
+    }
+
+    .divImgBusket {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        color: white;
+        left: calc(100vw / 2 - 70px);
+        letter-spacing: 2px;
+    }
+
+    #imgBusket {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 12px;
+    }
+    .divImgBusket p{
+        font-size: 1rem ;
+    }
+    .cartInfoInBusket {
+        background-color: #282c34;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -11px;
+        max-height: 40vh;
+        gap: 8px;
+        width: 100%;
+        padding: 2px 0;
+    }
+
+    .divInfoC {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /*height: 10vh;*/
+        padding: 3px 0 3px 0;
+        position: relative;
+    }
+
+    .imgBeerCart {
+        width: 85px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 2px;
+        padding-top: 2px;
+        position: relative;
+        left: 15px;
+        top: -3px;
+    }
+
+    .nameBeerh3Cart {
+        padding: 3px;
+        position: relative;
+        width: 38%;
+        left: 20px;
+        top: -5px;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+    }
+
+    .priceBeerDivCart {
+        width: 30px;
+        height: 13px;
+        color: black;
+        background-color: orange;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        left: -120px;
+        top: -4px;
+    }
+
+    .priceBeerPCart {
+        position: relative;
+        top: -5px;
+        padding: 2px;
+        margin: 2px;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .containerBtnAddSub {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        position: relative;
+        left: 10%;
+        top: 10px;
+        width: 60%;
+    }
+
+    .btnImgSubCount {
+        width: 30px;
+        height: 20px;
+        background-color: #282c34;
+        border-radius: 6px 0 0 6px;
+    }
+
+    #imgSubBeer {
+        width: 15px;
+        height: 10px;
+        position: relative;
+        left: -1px;
+        top: 0;
+    }
+    #pCountBeer {
+        color: white;
+        width: 20px;
+        position: relative;
+        top: -18px;
+    }
+    .btnImgAddCount {
+        width: 30px;
+        height: 20px;
+        background-color: orange;
+        border-radius: 0 6px 6px 0;
+    }
+
+    .imgAddBeerInBusket {
+        width: 23px;
+        height: 18px;
+        position: relative;
+        left: -4px;
+        top: -2px;
+    }
+    .btnDeleteProduct {
+        width: 30px;
+        height: 30px;
+        background-color: #282c34;
+        border: none;
+        position: relative;
+        left: 20px;
+        top: -2px;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgDeleteProduct {
+        width: 23px;
+        height: 18px;
+        position: relative;
+        top: -3px;
+    }
 }
 
 @media (min-width: 1024px) {
