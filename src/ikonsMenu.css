@@ -20,11 +20,10 @@
         transition: background-color 0.5s ease;
     }
 
-    /*upd*/
     .imgikons {
         flex-grow: 1;
-        width: 5px;
-        height: 5px;
+        max-width: 1rem;
+        height: 18px;
         padding-top: 5px;
     }
 
