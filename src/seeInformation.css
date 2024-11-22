@@ -387,3 +387,136 @@
     }
 
 }
+@media (min-width: 767px) and (max-width: 1440px){
+    #btnClose {
+        background-color: red;
+        border-radius: 14px;
+        padding: 2px;
+        height: 30px;
+        width: 58px;
+        position: absolute;
+        top: 150px;
+        left: 39px;
+        z-index: 102;
+        font-size: 12px;
+    }
+
+    .beerSee {
+        position: fixed;
+        top: 185px;
+        left: 6.5%;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        width: 88vw;
+        border: 1px solid black;
+        border-radius: 13px;
+        background-color: #282c34;
+        gap: 2px;
+        box-shadow: 10px 12px 10px #282c34;
+        height: 35vh;
+    }
+
+    .beerListSee {
+        position: relative;
+        left: 35px;
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        z-index: 110;
+        height: max-content;
+    }
+
+    .beerItemSee {
+        color: white;
+        text-align: left;
+        width: 100%;
+    }
+
+    .imgBeerSee {
+        width: 95px;
+        height: 95px;
+        position: relative;
+        z-index: 110;
+        left: 75%;
+        top: 75px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        border-radius: 13px;
+    }
+
+    .nameBeerh3See {
+        position: relative;
+        font-size: 20px;
+        letter-spacing: 1px;
+        top: -90px;
+
+    }
+
+    .tagLineSee {
+        position: relative;
+        font-size: 18px;
+        letter-spacing: 1px;
+        top: -115px;
+    }
+
+    .abvSee {
+        position: relative;
+        font-size: 16px;
+        letter-spacing: 1px;
+        top: -133px;
+    }
+
+    .descriptionContainer {
+        position: relative;
+        font-size: 15px;
+        line-height: 20px;
+        width: 60%;
+        top: -145px;
+        z-index: 110;
+    }
+
+    .food_pairingSeeContainer {
+        position: relative;
+        font-size: 15px;
+        top: -150px;
+        line-height: 15px;
+        width: 60%;
+        z-index: 110;
+    }
+
+    .collapseButtonD {
+        position: relative;
+        width: 46%;
+        font-size: 14px;
+        height: 20px;
+        top: -8px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .collapseButtonP {
+        position: relative;
+        width: 46%;
+        font-size: 14px;
+        height: 20px;
+        top: -8px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    #btnAddCart {
+        position: absolute;
+        top: 29vh;
+        left: 65%;
+        width: 23vh;
+        height: 36px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 12px;
+        margin: 2px;
+        padding: 8px;
+    }
+
+
+}

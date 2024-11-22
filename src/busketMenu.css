@@ -526,7 +526,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1440px){
     .busketContainer {
         position: fixed;
         top: 580px;

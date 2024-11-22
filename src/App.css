@@ -83,7 +83,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1440px){
   .App-header {
     min-height: 25vh;
     display: flex;
