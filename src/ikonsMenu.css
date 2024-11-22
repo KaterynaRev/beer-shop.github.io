@@ -1,3 +1,364 @@
+
+/*@media (max-width: 1440px) {*/
+/*    .classIkonsMenu {*/
+/*        position: absolute;*/
+/*        top: 4.8em;*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*        justify-content: space-evenly;*/
+/*        align-items: center;*/
+/*        width: 100%;*/
+/*        box-sizing: border-box;*/
+/*    }*/
+
+/*    .btnIkonsMenu {*/
+/*        border: none;*/
+/*        width: calc(80% / 4 - 1.25em);*/
+/*        height: 3.25em;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        border-radius: 20px 20px 0 0;*/
+/*        background-color: crimson;*/
+/*        transition: background-color 0.5s ease;*/
+/*        box-sizing: border-box;*/
+/*    }*/
+
+/*    .imgikons {*/
+/*        width: 10vw;*/
+/*        max-width: 2.5em;*/
+/*        height: auto;*/
+/*        padding-top: 5px;*/
+/*        box-sizing: border-box;*/
+/*    }*/
+
+/*    .content {*/
+/*        position: relative;*/
+/*        top: -9.31em;*/
+/*        box-sizing: border-box;*/
+/*    }*/
+
+/*    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {*/
+/*        position: absolute;*/
+/*        background-color: #282c34;*/
+/*        top: 6.8em;*/
+/*        height: 2.5em;*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*        justify-content: space-evenly;*/
+/*        align-items: center;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .clButtonsBear button, .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {*/
+/*        background-color: #282c34;*/
+/*        color: white;*/
+/*        border: none;*/
+/*        font-size: 1.25em;*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    .btnIkonsMenu.active {*/
+/*        background-color: #282c34;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 480px) and (max-width: 767px){*/
+/*    .classIkonsMenu {*/
+/*        position: absolute;*/
+/*        top: 9.4%;*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*        z-index: 3;*/
+/*        justify-content: space-evenly;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .btnIkonsMenu {*/
+/*        border: none;*/
+/*        width: calc(90% / 4 - 10px);*/
+/*        height: 46px;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        border-radius: 20px 20px 0 0;*/
+/*        background-color: crimson;*/
+/*        transition: background-color 0.5s ease;*/
+/*    }*/
+
+/*    .imgikons {*/
+/*        flex-grow: 1;*/
+/*        max-width: 30px;*/
+/*        height: 30px;*/
+/*        padding-top: 5px;*/
+/*    }*/
+
+/*    .content {*/
+/*        position: relative;*/
+/*        height: 6vh;*/
+/*        top: -146px;*/
+/*    }*/
+
+/*    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {*/
+/*        position: absolute;*/
+/*        background-color: #282c34;*/
+/*        top: 2px;*/
+/*        height: 40px;*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*        z-index: 3;*/
+/*        justify-content: space-evenly;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {*/
+/*        background-color: #282c34;*/
+/*        color: white;*/
+/*        border: none;*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    .clButtonsBear button {*/
+/*        background-color: #282c34;*/
+/*        color: gray;*/
+/*        border: none;*/
+/*        font-size: 18px;*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*    }*/
+
+/*    .activeDrkCl.active {*/
+/*        color: white;*/
+/*    }*/
+
+/*    .btnIkonsMenu.active {*/
+/*        background-color: #282c34;*/
+/*    }*/
+
+/*    .classIkonsMenu.blurred {*/
+/*        filter: blur(10px);*/
+/*        pointer-events: none;*/
+/*        transition: filter 0.3s ease-in-out;*/
+/*    }*/
+
+/*    #dropDownBtn {*/
+/*        position: relative;*/
+/*        align-content: center;*/
+/*        justify-content: center;*/
+/*        border: none;*/
+/*        width: 95px;*/
+/*    }*/
+
+/*    .sortButton {*/
+/*        border: none;*/
+/*        height: 100%;*/
+/*        width: 95px;*/
+/*    }*/
+
+/*    #ulIdDrop {*/
+/*        position: absolute;*/
+/*        left: -330px;*/
+/*        z-index: 200;*/
+/*        width: 60vw;*/
+/*        top: calc(100vh / 2 - 30vh);*/
+/*        height: 30vh;*/
+/*        background-color: #282c34;*/
+/*        border-radius: 20px;*/
+/*        list-style: none;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        color: white;*/
+/*        font-size: 25px;*/
+/*        gap: 5px;*/
+/*    }*/
+
+/*    #liSorting {*/
+/*        position: relative;*/
+/*        left: -18px;*/
+/*        top: 3px;*/
+/*    }*/
+
+/*    .liOneDrop {*/
+/*        width: 100%;*/
+/*        display: flex;*/
+/*        justify-content: left;*/
+/*        position: relative;*/
+/*        left: -20px;*/
+/*        top: 8px;*/
+/*    }*/
+
+/*    .liOneDrop button {*/
+/*        color: white;*/
+/*        font-size: 16px;*/
+/*        letter-spacing: 1px;*/
+/*        height: 45px;*/
+/*        padding: 0 0 3px 0;*/
+/*    }*/
+
+/*    #ulIdDrop {*/
+/*        display: none;*/
+/*    }*/
+
+/*    #dropDownBtn:hover ul {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .btnLiDrop.active #ulIdDrop {*/
+/*        display: none;*/
+/*    }*/
+
+/*}*/
+
+@media (min-width: 480px) and (max-width: 480px) {
+    .classIkonsMenu {
+        position: absolute;
+        top: 30px;
+        display: flex;
+        flex-direction: row;
+        z-index: 3;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .btnIkonsMenu {
+        border: none;
+        width: calc(90% / 4 - 10px);
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px 20px 0 0;
+        background-color: crimson;
+        transition: background-color 0.5s ease;
+    }
+
+    .imgikons {
+        flex-grow: 1;
+        max-width: 17px;
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .content {
+        position: relative;
+        height: 4vh;
+        top: -110px;
+    }
+
+    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
+        position: absolute;
+        background-color: #282c34;
+        top: 8px;
+        height: 29px;
+        display: flex;
+        flex-direction: row;
+        z-index: 3;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {
+        background-color: #282c34;
+        color: white;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .clButtonsBear button {
+        background-color: #282c34;
+        color: gray;
+        border: none;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .activeDrkCl.active {
+        color: white;
+    }
+
+    .btnIkonsMenu.active {
+        background-color: #282c34;
+    }
+
+    .classIkonsMenu.blurred {
+        filter: blur(10px);
+        pointer-events: none;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    #dropDownBtn {
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        border: none;
+        width: 55px;
+        top: -2px;
+    }
+
+    .sortButton {
+        border: none;
+        height: 18px;
+        width: 55px;
+    }
+
+    #ulIdDrop {
+        position: absolute;
+        left: -210px;
+        z-index: 200;
+        width: 60vw;
+        top: calc(100vh / 2 - 28vh);
+        height: 30vh;
+        background-color: #282c34;
+        border-radius: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+
+    #liSorting {
+        position: relative;
+        left: -18px;
+        top: 3px;
+    }
+
+    .liOneDrop {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        position: relative;
+        left: -20px;
+        top: 8px;
+    }
+
+    .liOneDrop button {
+        color: white;
+        font-size: 13px;
+        letter-spacing: 1px;
+        height: 30px;
+        padding: 0 0 3px 0;
+    }
+
+    #ulIdDrop {
+        display: none;
+    }
+
+    #dropDownBtn:hover ul {
+        display: block;
+    }
+
+    .btnLiDrop.active #ulIdDrop {
+        display: none;
+    }
+
+
+}
+
 @media (max-width: 320px) {
     .classIkonsMenu {
         position: absolute;
@@ -146,363 +507,5 @@
 
 }
 
-@media (min-width: 320px ) and (max-width: 425px) {
-    .classIkonsMenu {
-        position: absolute;
-        top: 30px;
-        display: flex;
-        flex-direction: row;
-        z-index: 3;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .btnIkonsMenu {
-        border: none;
-        width: calc(90% / 4 - 10px);
-        height: 33px;
-        display: flex;
-        justify-content: center;
-        border-radius: 20px 20px 0 0;
-        background-color: crimson;
-        transition: background-color 0.5s ease;
-    }
-
-    .imgikons {
-        flex-grow: 1;
-        max-width: 17px;
-        height: 20px;
-        padding-top: 5px;
-    }
-
-    .content {
-        position: relative;
-        height: 4vh;
-        top: -110px;
-    }
-
-    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
-        position: absolute;
-        background-color: #282c34;
-        top: 8px;
-        height: 29px;
-        display: flex;
-        flex-direction: row;
-        z-index: 3;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {
-        background-color: #282c34;
-        color: white;
-        border: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .clButtonsBear button {
-        background-color: #282c34;
-        color: gray;
-        border: none;
-        font-size: 12px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .activeDrkCl.active {
-        color: white;
-    }
-
-    .btnIkonsMenu.active {
-        background-color: #282c34;
-    }
-
-    .classIkonsMenu.blurred {
-        filter: blur(10px);
-        pointer-events: none;
-        transition: filter 0.3s ease-in-out;
-    }
-
-    #dropDownBtn {
-        position: relative;
-        align-content: center;
-        justify-content: center;
-        border: none;
-        width: 55px;
-        top: -2px;
-    }
-
-    .sortButton {
-        border: none;
-        height: 18px;
-        width: 55px;
-    }
-
-    #ulIdDrop {
-        position: absolute;
-        left: -210px;
-        z-index: 200;
-        width: 60vw;
-        top: calc(100vh / 2 - 28vh);
-        height: 30vh;
-        background-color: #282c34;
-        border-radius: 20px;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        font-size: 15px;
-        gap: 5px;
-    }
 
 
-    #liSorting {
-        position: relative;
-        left: -18px;
-        top: 3px;
-    }
-
-    .liOneDrop {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-        position: relative;
-        left: -20px;
-        top: 8px;
-    }
-
-    .liOneDrop button {
-        color: white;
-        font-size: 13px;
-        letter-spacing: 1px;
-        height: 30px;
-        padding: 0 0 3px 0;
-    }
-
-    #ulIdDrop {
-        display: none;
-    }
-
-    #dropDownBtn:hover ul {
-        display: block;
-    }
-
-    .btnLiDrop.active #ulIdDrop {
-        display: none;
-    }
-
-
-}
-@media (min-width: 480px) and (max-width: 767px){
-    .classIkonsMenu {
-        position: absolute;
-        top: 9.4%;
-        display: flex;
-        flex-direction: row;
-        z-index: 3;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .btnIkonsMenu {
-        border: none;
-        width: calc(90% / 4 - 10px);
-        height: 46px;
-        display: flex;
-        justify-content: center;
-        border-radius: 20px 20px 0 0;
-        background-color: crimson;
-        transition: background-color 0.5s ease;
-    }
-
-    .imgikons {
-        flex-grow: 1;
-        max-width: 30px;
-        height: 30px;
-        padding-top: 5px;
-    }
-
-    .content {
-        position: relative;
-        height: 6vh;
-        top: -146px;
-    }
-
-    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
-        position: absolute;
-        background-color: #282c34;
-        top: 2px;
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        z-index: 3;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {
-        background-color: #282c34;
-        color: white;
-        border: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .clButtonsBear button {
-        background-color: #282c34;
-        color: gray;
-        border: none;
-        font-size: 18px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .activeDrkCl.active {
-        color: white;
-    }
-
-    .btnIkonsMenu.active {
-        background-color: #282c34;
-    }
-
-    .classIkonsMenu.blurred {
-        filter: blur(10px);
-        pointer-events: none;
-        transition: filter 0.3s ease-in-out;
-    }
-
-    #dropDownBtn {
-        position: relative;
-        align-content: center;
-        justify-content: center;
-        border: none;
-        width: 95px;
-    }
-
-    .sortButton {
-        border: none;
-        height: 100%;
-        width: 95px;
-    }
-
-    #ulIdDrop {
-        position: absolute;
-        left: -330px;
-        z-index: 200;
-        width: 60vw;
-        top: calc(100vh / 2 - 30vh);
-        height: 30vh;
-        background-color: #282c34;
-        border-radius: 20px;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        font-size: 25px;
-        gap: 5px;
-    }
-
-    #liSorting {
-        position: relative;
-        left: -18px;
-        top: 3px;
-    }
-
-    .liOneDrop {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-        position: relative;
-        left: -20px;
-        top: 8px;
-    }
-
-    .liOneDrop button {
-        color: white;
-        font-size: 16px;
-        letter-spacing: 1px;
-        height: 45px;
-        padding: 0 0 3px 0;
-    }
-
-    #ulIdDrop {
-        display: none;
-    }
-
-    #dropDownBtn:hover ul {
-        display: block;
-    }
-
-    .btnLiDrop.active #ulIdDrop {
-        display: none;
-    }
-
-}
-
-
-
-@media (max-width: 1440px) {
-    .classIkonsMenu {
-        position: absolute;
-        top: 4.8em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .btnIkonsMenu {
-        border: none;
-        width: calc(80% / 4 - 1.25em);
-        height: 3.25em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px 20px 0 0;
-        background-color: crimson;
-        transition: background-color 0.5s ease;
-        box-sizing: border-box;
-    }
-
-    .imgikons {
-        width: 10vw;
-        max-width: 2.5em;
-        height: auto;
-        padding-top: 5px;
-        box-sizing: border-box;
-    }
-
-    .content {
-        position: relative;
-        top: -9.31em;
-        box-sizing: border-box;
-    }
-
-    .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
-        position: absolute;
-        background-color: #282c34;
-        top: 6.8em;
-        height: 2.5em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-    }
-
-    .clButtonsBear button, .clButtonsFood button, .clButtonsDiscount button, .clButtonsSearch button {
-        background-color: #282c34;
-        color: white;
-        border: none;
-        font-size: 1.25em;
-        margin: 0;
-        padding: 0;
-    }
-
-    .btnIkonsMenu.active {
-        background-color: #282c34;
-    }
-}
