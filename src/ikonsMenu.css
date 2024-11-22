@@ -23,7 +23,7 @@
     /*upd*/
     .imgikons {
         flex-grow: 1;
-        max-width: 0.5rem;
+        width: 5px;
         height: 5px;
         padding-top: 5px;
     }
