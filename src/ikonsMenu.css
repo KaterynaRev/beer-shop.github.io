@@ -448,8 +448,8 @@
         top: 78px;
         display: flex;
         flex-direction: row;
-        z-index: 3;
         justify-content: space-evenly;
+        align-items: center; 
         width: 100%;
         box-sizing: border-box;
     }
@@ -460,6 +460,7 @@
         height: 52px;
         display: flex;
         justify-content: center;
+        align-items: center;
         border-radius: 20px 20px 0 0;
         background-color: crimson;
         transition: background-color 0.5s ease;
@@ -467,9 +468,9 @@
     }
 
     .imgikons {
-        flex-grow: 1;
-        max-width: 30px;
-        height: 35px;
+        width: 10vw;
+        max-width: 40px;
+        height: auto;
         padding-top: 5px;
         box-sizing: border-box;
     }
@@ -487,8 +488,8 @@
         height: 40px;
         display: flex;
         flex-direction: row;
-        z-index: 3;
         justify-content: space-evenly;
+        align-items: center;
         width: 100%;
     }
 
@@ -504,5 +505,4 @@
     .btnIkonsMenu.active {
         background-color: #282c34;
     }
-
 }
