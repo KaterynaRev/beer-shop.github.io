@@ -21,7 +21,7 @@
         color: white;
         font-size: 0.9rem;
         position: relative;
-        left: -30%;
+        left: -28%;
     }
 
     .divBtnTips {
@@ -83,7 +83,7 @@
         position: relative;
         font-size: 0.8rem;
         letter-spacing: 2px;
-        left: 76%;
+        left: 72%;
     }
 
     .divTipsPP {
@@ -100,7 +100,7 @@
         position: relative;
         font-size: 0.8rem;
         letter-spacing: 1px;
-        left: 83%;
+        left: 80.3%;
     }
 
     .divTotal {
@@ -120,16 +120,16 @@
     #pTotalPrice {
         position: relative;
         font-size: 1rem;
-        top: 14px;
+        top: 9px;
         letter-spacing: 2px;
-        left: 77%;
+        left: 73%;
     }
 
     .divBtnConfirm {
         width: 80%;
         left: 10%;
         position: relative;
-        top: -21%;
+        top: -18%;
     }
 
     #btnConfirm {

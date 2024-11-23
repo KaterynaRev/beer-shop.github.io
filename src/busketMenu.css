@@ -14,7 +14,7 @@
 
     #lineDiv {
         width: 20px;
-        height: 5px;
+        height: 4px;
         background-color: white;
         position: relative;
         left: calc(100vw / 2 - 10px);
@@ -30,7 +30,7 @@
         flex-direction: row;
         gap: 6px;
         color: white;
-        left: 38%;
+        left: 35%;
         letter-spacing: 2px;
     }
 
@@ -54,7 +54,7 @@
         position: relative;
         top: -10px;
         max-height: 39vh;
-        gap: 3px;
+        gap: 13px;
     }
 
     .divInfoC {
@@ -66,14 +66,14 @@
     }
 
     .imgBeerCart {
-        width: 8%;
+        width: 14%;
         height: auto;
         border-radius: 10px;
         margin-top: 3px;
         padding-top: 2px;
         position: relative;
-        left: 5%;
-        top: -3px;
+        left: 6%;
+        top: -2px;
     }
 
     .nameBeerh3Cart {
@@ -102,11 +102,12 @@
 
     .priceBeerPCart {
         position: relative;
-        top: -6px;
+        top: -5px;
+        left: -1px;
         padding: 2px;
         margin: 2px;
         align-items: center;
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .containerBtnAddSub {
@@ -114,7 +115,7 @@
         flex-direction: row;
         gap: 5px;
         position: relative;
-        left: 10%;
+        left: -10px;
         top: 10px;
     }
 
@@ -159,7 +160,7 @@
         border: none;
        position: relative;
         left: 18px;
-        top: -2px;
+        top: -1px;
     }
     #imgDeleteProduct {
         width: 23px;

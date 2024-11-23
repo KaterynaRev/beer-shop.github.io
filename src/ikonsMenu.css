@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
     .classIkonsMenu {
         position: absolute;
-        top: 8%;
+        top: 6.6%;
         display: flex;
         flex-direction: row;
         z-index: 3;
@@ -12,7 +12,7 @@
     .btnIkonsMenu {
         border: none;
         width: calc(90% / 4 - 10px);
-        height: 1.9rem;
+        height: 2.3rem;
         display: flex;
         justify-content: center;
         border-radius: 15px 15px 0 0;
@@ -83,26 +83,25 @@
     .sortButton {
         border: none;
         position: relative;
-        top: -1px;
-        height: 99%;
+        height: 96%;
         width: 100%;
     }
 
     #ulIdDrop {
         position: absolute;
-        left: -260px;
+        left: -220px;
         z-index: 4;
         width: 60vw;
         top: calc(100vh / 2 - 32vh);
-        height: 30vh;
+        height: 25vh;
         background-color: #282c34;
         border-radius: 20px;
         list-style: none;
         display: flex;
         flex-direction: column;
         color: white;
-        font-size: 1rem;
-        gap: 5px;
+        font-size: 1.1rem;
+        gap: 10px;
     }
 
 
@@ -124,7 +123,7 @@
         color: white;
         font-size: 0.8em;
         letter-spacing: 1px;
-        height: 26px;
+        height: 30px;
         padding: 0 0 3px 0;
     }
 

@@ -26,15 +26,15 @@
         background-color: white;
         position: relative;
         left: -2px;
-        top: 20px;
-        gap: 2px;
+        top: 30px;
+        gap: 4px;
         height: 100%;
         transition: opacity 0.3s ease-in-out;
     }
 
     .beerItem {
         width: calc(40% - 50px);
-        height: 100px;
+        height: 125px;
         box-sizing: border-box;
         margin: 5px 5px 15px 5px;
     }
@@ -43,7 +43,7 @@
         border: 1px solid black;
         border-radius: 8px;
         width: 63%;
-        height: 80px;
+        height: 90px;
         object-fit: cover;
     }
 
