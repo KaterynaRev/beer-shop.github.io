@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/beer-shop.github.io/static/css/main.db131c3c.css",
+    "main.css": "/beer-shop.github.io/static/css/main.f25c5e5b.css",
     "main.js": "/beer-shop.github.io/static/js/main.df2e599f.js",
     "static/js/453.29314506.chunk.js": "/beer-shop.github.io/static/js/453.29314506.chunk.js",
     "index.html": "/beer-shop.github.io/index.html",
-    "main.db131c3c.css.map": "/beer-shop.github.io/static/css/main.db131c3c.css.map",
+    "main.f25c5e5b.css.map": "/beer-shop.github.io/static/css/main.f25c5e5b.css.map",
     "main.df2e599f.js.map": "/beer-shop.github.io/static/js/main.df2e599f.js.map",
     "453.29314506.chunk.js.map": "/beer-shop.github.io/static/js/453.29314506.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db131c3c.css",
+    "static/css/main.f25c5e5b.css",
     "static/js/main.df2e599f.js"
   ]
 }
