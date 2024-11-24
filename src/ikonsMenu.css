@@ -31,7 +31,7 @@
         position: absolute;
         background-color: #282c34;
         top: 11.4%;
-        height: 23px;
+        height: 28px;
         display: flex;
         flex-direction: row;
         z-index: 3;
@@ -141,7 +141,7 @@
 
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 480px) &&  @media(max-width: 1440px) {
     .classIkonsMenu {
         position: absolute;
         top: 6.9%;
@@ -236,7 +236,7 @@
         z-index: 6;
         width: 12vw;
         top: 3.9vh;
-        height: 25vh;
+        height: 30vh;
         background-color: #282c34;
         border-radius: 20px;
         list-style: none;
