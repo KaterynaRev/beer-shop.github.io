@@ -65,7 +65,7 @@
     }
     #h1Demo h1 {
         font-size: 1.6rem;
-        color: yellow;
+       
     }
 }
 
@@ -95,7 +95,7 @@
         left: -21px;
         font-size: 1.4rem;
         line-height: 1em;
-             
+        color: yellow;
     }
 }
 
