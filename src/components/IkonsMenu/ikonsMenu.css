@@ -296,7 +296,7 @@
     #ulIdDrop {
         top: 10vh;
         width: 30vw;
-        height: calc(100vh / 2 - 30vh);
+        height: calc(100vh / 2 - 21vh);
         left: calc(100% / 2 - 53vw);
     }
 

@@ -254,7 +254,7 @@
     }
 
     .btnDeleteProduct {
-        left: 1em;
+        left: 0.9em;
         top: 0;
     }
 
@@ -300,6 +300,7 @@
         width: 96%;
         padding: 2px 3px 2px 3px;
         top: 0;
+        left: 3.8vw;
     }
 
     .imgBeerCart {
@@ -312,8 +313,9 @@
         top: 3px;
     }
     .nameBeerh3Cart {
+        text-align: left;
         top: 5px;
-        left: -5px;
+        left: 38px;
         font-size: 0.8rem;
     }
 
@@ -370,7 +372,7 @@
         background-color: #282c34;
         border: none;
         position: relative;
-        left: 45px;
+        left: 53px;
         top: 0;
     }
 }
@@ -580,7 +582,7 @@
 @media only screen and (min-width: 1360px) and (max-width: 1559px) {
     .divImgBusket {
         gap: 6px;
-        left: 45.5vw;
+        left: 45.3vw;
         top: 0.4vh;
     }
 
@@ -594,32 +596,34 @@
         font-size: 1rem;
     }
     .cartInfoInBusket {
-        top: 3%;
-        gap: 1.4rem;
+        top: -5%;
+        gap: 1.5rem;
     }
 
     .divInfoC {
         left: 7vw;
-        top: 3%;
+        top: 2%;
         height: 9vh;
     }
 
     .imgBeerCart {
-        width: 5vw;
-        height: 9vh;
+        width: 4vw;
+        height: 8.5vh;
         left: 4%;
-        top: -2px;
+        top: -1px;
     }
 
     .imgBeerCart img {
-        top: 4px;
+        top: 3px;
+            width: 95%;
+            height: 7vh;
     }
 
     .priceBeerDivCart {
         width: 2%;
         height: 14px;
         left: -37%;
-        top: -3px;
+        top: -2px;
     }
 
     .priceBeerPCart {
@@ -715,9 +719,9 @@
     }
 
     .imgBeerCart img {
-        top: 7px;
-        width: 85%;
-        height: 80%;
+        top: 1px;
+        width: 95%;
+        height: 9vh;
     }
 
     .priceBeerDivCart {
