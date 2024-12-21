@@ -10,6 +10,7 @@ function App() {
             <h1>Demo App</h1>
           </div>
         </header>
+          
         <BeerShop />
       </div>
   );
